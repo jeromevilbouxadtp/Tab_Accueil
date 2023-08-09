@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+
+        tools:context=".ActivityEnregistrement">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Bonjour et Bienvenueà l'ADTP !"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomEdit"
+            android:layout_marginTop="100dp"
+            android:hint="Entrer votre nom"
+            />
+        <EditText
+            android:id="@+id/prenomEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="Entrer votre prénom" />
+
+    <EditText
+        android:id="@+id/societeEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Entrer votre société" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNomVisite"
+        android:text="Qui venez vous rencontrer (Choisissez dans la liste) ?"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        />
+
+        <Spinner
+            android:id="@+id/contactSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEnregistrer"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/design_default_color_error"
+            android:textColor="@color/white"
+            android:text="S'enregistrer dans le registre"/>
+
+
+
+
+
+    </RelativeLayout>

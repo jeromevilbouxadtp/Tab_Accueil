@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adtp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue sur le site de l'ADTP"
+        android:textColor="@android:color/black"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnavecrdv"
+
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:backgroundTint="@color/design_default_color_error"
+            android:textColor="@color/white"
+            android:text="Vous avez rendez-vous"
+             />
+
+
+        <Button
+            android:id="@+id/btnsansrdv"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Vous n'avez pas rendez-vous"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnenregistrement"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Simple enregistrement"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnsortie"
+
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Sortie"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

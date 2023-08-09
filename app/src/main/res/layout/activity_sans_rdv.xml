@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+
+
+    tools:context=".ActivitySansRdv">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Bonjour et Bienvenue à l'ADTP !"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomEdit"
+        android:layout_marginTop="100dp"
+        android:hint="Entrer votre nom"
+        />
+    <EditText
+        android:id="@+id/prenomEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="Entrer votre prénom" />
+
+    <EditText
+        android:id="@+id/societeEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Entrer votre société" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMotif"
+        android:text="Quel est le motif de votre visite (Choisissez dans la liste) ?"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/motifSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnValider"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/design_default_color_error"
+        android:textColor="@color/white"
+        android:text="Prévenez de votre présence"/>
+
+    <Button
+        android:id="@+id/btnAvertirSansRdv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:textColor="@color/white"
+        android:text="Enregistrement" />
+
+
+
+    </RelativeLayout>
+

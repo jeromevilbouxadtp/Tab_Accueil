@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Accueil ADTP</string>
+    <string-array name="motif">
+        <item>Réunion</item>
+        <item>Entretien</item>
+        <item>Livraison</item>
+        <item>Autres</item>
+    </string-array>
+
+
+</resources>
